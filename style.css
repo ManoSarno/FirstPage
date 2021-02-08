@@ -383,3 +383,29 @@ body {
     
     color: #818693;
 }
+
+.footerwrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 130px;
+    padding: 64px 0;
+    
+    background: #4DC3F9;
+}
+
+.whiteapplybutton {
+    width: 327px;
+    height: 56px;    
+    background: #FFFFFF;
+    border-radius: 6px;     
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4DC3F9;
+}
