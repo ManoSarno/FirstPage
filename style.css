@@ -324,3 +324,62 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.teacherswrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 422px;
+    padding: 64px 0;
+    
+    background: #F8F8F8;
+}
+
+.teachersboxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70vw;
+    margin: 40px 15vw 0 15vw;
+    
+}
+
+.teachers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 235px;
+    margin: 0 12px;
+}
+
+.teachersimg {
+    width: 235px;
+}
+
+.teachersnames {
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 0;
+    
+    color: #2D354C;
+}
+
+.teachersinfo {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0;
+    
+    color: #818693;
+}
