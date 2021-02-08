@@ -44,7 +44,7 @@ body {
     width: 100vw;
     height: 100vw;
     max-height: 854px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url(images/Hero\ image.jpg) no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url(images/Hero/Hero\ image.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
