@@ -409,3 +409,30 @@ body {
     line-height: 23px;
     color: #4DC3F9;
 }
+
+@media (max-width: 1050px) {
+    .container {height: 120px;}
+    
+    .bcwrap {margin-top: 40px;
+    margin-bottom: 40px;}
+    
+    .sectiontitle {margin: 0 29px;
+    width: calc(100vw - 58px);
+    font-size: 32px;}
+    
+    .bctext {margin-left: max(24px, 6.4vw);
+    margin-right: max(24px, 6.4vw);
+    margin-bottom: 0;
+    width: 87.2vw}
+    
+    .bcprogramswrap {flex-direction: column;
+    margin-left: max(24px, 6.4vw);
+    margin-right: max(24px, 6.4vw);}
+    
+    .bcprogramsbox {margin-top: 24px;
+    width: 87.2vw;
+    height: fit-content;
+    padding: 40px 0;}
+    
+    .programname {font-size: 28px;}
+}
