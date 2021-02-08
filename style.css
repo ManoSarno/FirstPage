@@ -435,4 +435,40 @@ body {
     padding: 40px 0;}
     
     .programname {font-size: 28px;}
+
+    .squadwrap {height: 384px;
+    padding: 40px 0;}
+    
+    .whitesectiontitle {justify-content: flex-start;
+    font-size: 32px;
+    margin: -10px 24px 24px 24px;
+    line-height: 42px;
+    height: 67px;}
+    
+    .numberswrap {flex-wrap: wrap;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: calc(100vw - 48px);
+    height: 300px;}
+    
+    .textandnumber {width: 134px;}
+    
+    .squadnumbers {width: 134px;
+    font-size: 90px;
+    line-height: 119px;}
+    
+    .squadtexts {width: 134px;
+    line-height: 23.4px;
+    margin-top: -7px;
+    margin-bottom: 23px;}
+    
+    .projectswrap {height: 1532px;
+    padding: 40px 0;}
+    
+    .boxeswrap {height: 1442px;
+    margin-top: 24px;}
+    
+    .boxes {flex-direction: column;
+    justify-content: space-between;
+    height: 713px;}
 }
