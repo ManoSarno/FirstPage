@@ -74,3 +74,106 @@ body {
     line-height: 23px;
     color: #FFFFFF;
 }
+
+.bcwrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin: 64px 0;
+    background: #FFFFFF;
+}
+
+.sectiontitle {
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin: 0;
+    width: 52vw;
+
+    color: #2D354C;    
+}
+
+.bctext {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: max(24px, 15vw);
+    margin-right: max(24px, 15vw);
+    margin-top: 24px;
+    margin-bottom: 40px;
+    width: max(327px, 70vw);
+
+    color: #818693;   
+}
+
+.bcprogramswrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: max(327px, 70vw);
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.bcprogramsbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    width: max(327px, calc(35vw - 12px));
+    
+    background: #F8F8F8;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.programduration {
+    margin: 0;
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #4DC3F9;
+}
+
+.programname {
+    margin: 16px;
+
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #2D354C;
+}
+
+.programinfo {
+    margin: 0;
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0 29px;
+    
+    color: #818693;
+}
