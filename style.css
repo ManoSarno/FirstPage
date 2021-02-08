@@ -18,7 +18,7 @@ body {
     height: 44px;
 }
 
-.browsebutton {
+.browse-button {
     background-color: #2D354C;
     width: 168px;
     height: 44px;
@@ -49,7 +49,7 @@ body {
     background-position: center;
 }
 
-.herotext {
+.hero-text {
     font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-size: max(36px, 3.9vw);
@@ -60,7 +60,7 @@ body {
     width: max(322px, 69.5vw);
 }
 
-.applybutton {
+.apply-button {
     width: 327px;
     height: 56px;
     
@@ -75,7 +75,7 @@ body {
     color: #FFFFFF;
 }
 
-.bcwrap {
+.bc-wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,7 +84,7 @@ body {
     background: #FFFFFF;
 }
 
-.sectiontitle {
+.section-title {
     font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: 500;
@@ -98,7 +98,7 @@ body {
     color: #2D354C;    
 }
 
-.bctext {
+.bc-text {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -113,7 +113,7 @@ body {
     color: #818693;   
 }
 
-.bcprogramswrap {
+.bc-programs-wrap {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -123,7 +123,7 @@ body {
     margin-right: 15vw;
 }
 
-.bcprogramsbox {
+.bc-programs-box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,7 +136,7 @@ body {
     border-radius: 6px;
 }
 
-.programduration {
+.program-duration {
     margin: 0;
     
     font-family: 'Roboto', sans-serif;
@@ -150,7 +150,7 @@ body {
     color: #4DC3F9;
 }
 
-.programname {
+.program-name {
     margin: 16px;
 
     font-family: 'Roboto Mono', monospace;
@@ -164,7 +164,7 @@ body {
     color: #2D354C;
 }
 
-.programinfo {
+.program-info {
     margin: 0;
     
     font-family: 'Roboto', sans-serif;
@@ -178,7 +178,7 @@ body {
     color: #818693;
 }
 
-.squadwrap {
+.squad-wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,7 +190,7 @@ body {
     background: #4DC3F9;
 }
 
-.numberswrap {
+.numbers-wrap {
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -198,14 +198,14 @@ body {
     justify-content: space-evenly;
 }
 
-.textandnumber {
+.text-and-number {
     width: 112px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.whitesectiontitle {  
+.white-section-title {  
     font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: 500;
@@ -219,7 +219,7 @@ body {
     color: #FFFFFF;
 }
 
-.squadnumbers {
+.squad-numbers {
     font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: 500;
@@ -233,7 +233,7 @@ body {
     color: #2D354C;
 }
 
-.squadtexts {
+.squad-texts {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -248,7 +248,7 @@ body {
     color: #2D354C;
 }
 
-.projectswrap {
+.projects-wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -259,7 +259,7 @@ body {
     background: #F8F8F8;
 }
 
-.boxeswrap {
+.boxes-wrap {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -275,18 +275,18 @@ body {
     justify-content: space-evenly;
 }
 
-.projectsbox {
+.projects-box {
     filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.2));
     margin: 0 12px;
 }
 
-.projectimage {
+.project-image {
     width: 320px;
     height: 180px;
     border-radius: 6px 6px 0px 0px;
 }
 
-.boxdivider {
+.box-divider {
     width: 320px;
     height: 1px;
     margin-top: -4px;
@@ -294,7 +294,7 @@ body {
     background: #2C344B;
 }
 
-.boxtextwrap {
+.box-text-wrap {
     width: 320px;
     height: 23px;
     padding: 11px 0;
@@ -303,7 +303,7 @@ body {
     border-radius: 0px 0px 6px 6px;
 }
 
-.boxtext {
+.box-text {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -316,7 +316,7 @@ body {
     color: #2D354C;
 }
 
-.studentswrap {
+.students-wrap {
     height: 2394px;
     margin: 64px 0;
     background-image: url(images/Students/StudentsPC.png);
@@ -325,7 +325,7 @@ body {
     background-position: center;
 }
 
-.teacherswrap {
+.teachers-wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -336,7 +336,7 @@ body {
     background: #F8F8F8;
 }
 
-.teachersboxes {
+.teachers-boxes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -355,11 +355,11 @@ body {
     margin: 0 12px;
 }
 
-.teachersimg {
+.teachers-img {
     width: 235px;
 }
 
-.teachersnames {
+.teachers-names {
     font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: 500;
@@ -372,7 +372,7 @@ body {
     color: #2D354C;
 }
 
-.teachersinfo {
+.teachers-info {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -384,7 +384,7 @@ body {
     color: #818693;
 }
 
-.footerwrap {
+.footer-wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -396,7 +396,7 @@ body {
     background: #4DC3F9;
 }
 
-.whiteapplybutton {
+.white-apply-button {
     width: 327px;
     height: 56px;    
     background: #FFFFFF;
@@ -413,73 +413,74 @@ body {
 @media (max-width: 1050px) {
     .container {height: 120px;}
     
-    .bcwrap {margin-top: 40px;
+    .bc-wrap {margin-top: 40px;
     margin-bottom: 40px;}
     
-    .sectiontitle {margin: 0 29px;
+    .section-title {margin: 0 29px;
     width: calc(100vw - 58px);
     font-size: 32px;}
     
-    .bctext {margin-left: max(24px, 6.4vw);
+    .bc-text {margin-left: max(24px, 6.4vw);
     margin-right: max(24px, 6.4vw);
     margin-bottom: 0;
     width: 87.2vw}
     
-    .bcprogramswrap {flex-direction: column;
+    .bc-programs-wrap {flex-direction: column;
     margin-left: max(24px, 6.4vw);
     margin-right: max(24px, 6.4vw);}
     
-    .bcprogramsbox {margin-top: 24px;
+    .bc-programs-box {margin-top: 24px;
     width: 87.2vw;
     height: fit-content;
     padding: 40px 0;}
     
-    .programname {font-size: 28px;}
+    .program-name {font-size: 28px;}
 
-    .squadwrap {height: 384px;
+    .squad-wrap {height: 384px;
     padding: 40px 0;}
     
-    .whitesectiontitle {justify-content: flex-start;
+    .white-section-title {justify-content: flex-start;
     font-size: 32px;
     margin: -10px 24px 24px 24px;
     line-height: 42px;
     height: 67px;}
     
-    .numberswrap {flex-wrap: wrap;
+    .numbers-wrap {flex-wrap: wrap;
     margin-left: 24px;
     margin-right: 24px;
     width: calc(100vw - 48px);
     height: 300px;}
     
-    .textandnumber {width: 134px;}
+    .text-and-number {width: 134px;}
     
-    .squadnumbers {width: 134px;
+    .squad-numbers {width: 134px;
     font-size: 90px;
     line-height: 119px;}
     
-    .squadtexts {width: 134px;
+    .squad-texts {width: 134px;
     line-height: 23.4px;
     margin-top: -7px;
     margin-bottom: 23px;}
     
-    .projectswrap {height: 1532px;
+    .projects-wrap {height: 1532px;
     padding: 40px 0;}
     
-    .boxeswrap {height: 1442px;
+    .boxes-wrap {height: 1442px;
     margin-top: 24px;}
     
     .boxes {flex-direction: column;
     justify-content: space-between;
     height: 713px;}
-    .studentswrap {
+
+    .students-wrap {
     height: 2260px;
     margin: 40px 0;
     background-image: url(images/StudentsCel.png);}
 
-    .teacherswrap {height: 504px;
+    .teachers-wrap {height: 504px;
     padding: 40px 0;}
 
-    .teachersboxes {flex-wrap: wrap;
+    .teachers-boxes {flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 0;
     width: calc(100vw - 48px);}
@@ -487,27 +488,27 @@ body {
     .teachers {width: 150px;
     margin: 24px 0 0 0;}
 
-    .teachersimg {width: 150px;}
+    .teachers-img {width: 150px;}
 
-    .teachersnames {font-size: 20px;
+    .teachers-names {font-size: 20px;
     line-height: 26px;
     margin-top: 4px;}
 
-    .teachersinfo {font-size: 14px;
+    .teachers-info {font-size: 14px;
     line-height: 21px;}
 
-    .footerwrap {height:164px;
+    .footer-wrap {height:164px;
     padding: 40px 0;}
 
-    .studentswrap {
+    .students-wrap {
     height: 2260px;
     margin: 40px 0;
     background-image: url(images/StudentsCel.png);}
     
-    .teacherswrap {height: 504px;
+    .teachers-wrap {height: 504px;
     padding: 40px 0;}
     
-    .teachersboxes {flex-wrap: wrap;
+    .teachers-boxes {flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 0;
     width: calc(100vw - 48px);}
@@ -515,15 +516,15 @@ body {
     .teachers {width: 150px;
     margin: 24px 0 0 0;}
     
-    .teachersimg {width: 150px;}
+    .teachers-img {width: 150px;}
     
-    .teachersnames {font-size: 20px;
+    .teachers-names {font-size: 20px;
     line-height: 26px;
     margin-top: 4px;}
     
-    .teachersinfo {font-size: 14px;
+    .teachers-info {font-size: 14px;
     line-height: 21px;}
     
-    .footerwrap {height:164px;
+    .footer-wrap {height:164px;
     padding: 40px 0;}
 }
