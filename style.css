@@ -315,3 +315,12 @@ body {
     
     color: #2D354C;
 }
+
+.studentswrap {
+    height: 2394px;
+    margin: 64px 0;
+    background-image: url(images/Students/StudentsPC.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
