@@ -471,4 +471,59 @@ body {
     .boxes {flex-direction: column;
     justify-content: space-between;
     height: 713px;}
+    .studentswrap {
+    height: 2260px;
+    margin: 40px 0;
+    background-image: url(images/StudentsCel.png);}
+
+    .teacherswrap {height: 504px;
+    padding: 40px 0;}
+
+    .teachersboxes {flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 0;
+    width: calc(100vw - 48px);}
+
+    .teachers {width: 150px;
+    margin: 24px 0 0 0;}
+
+    .teachersimg {width: 150px;}
+
+    .teachersnames {font-size: 20px;
+    line-height: 26px;
+    margin-top: 4px;}
+
+    .teachersinfo {font-size: 14px;
+    line-height: 21px;}
+
+    .footerwrap {height:164px;
+    padding: 40px 0;}
+
+    .studentswrap {
+    height: 2260px;
+    margin: 40px 0;
+    background-image: url(images/StudentsCel.png);}
+    
+    .teacherswrap {height: 504px;
+    padding: 40px 0;}
+    
+    .teachersboxes {flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 0;
+    width: calc(100vw - 48px);}
+    
+    .teachers {width: 150px;
+    margin: 24px 0 0 0;}
+    
+    .teachersimg {width: 150px;}
+    
+    .teachersnames {font-size: 20px;
+    line-height: 26px;
+    margin-top: 4px;}
+    
+    .teachersinfo {font-size: 14px;
+    line-height: 21px;}
+    
+    .footerwrap {height:164px;
+    padding: 40px 0;}
 }
